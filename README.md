@@ -8,7 +8,7 @@ Below is a guide on how to set up and customize the hardware monitor to personal
 ## Notes
 This is a modified version of another github project found here: https://github.com/nemesisq3a/arduinoHwInfo
 
-This project uses the LibreHardwareMonitorLibrary (version 0.9.3) which can be found here: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
+This project uses the LibreHardwareMonitor Library (from version 0.9.3) which can be found here: https://github.com/LibreHardwareMonitor/LibreHardwareMonitor
 
 Currently, this only displays CPU (temp, freq, usage) and GPU (usage, core temp, memory junction temp, hotspot temp, coreclock, vram usage). An updated guide will later show how to modify the code to display your preferred info. 
 
