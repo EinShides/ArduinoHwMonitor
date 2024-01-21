@@ -35,4 +35,10 @@ Disclaimer: I am not a programmer so the code provided is probably not the most 
 
 Note: if you want this to run on startup, you will have to create a scheduled task in task scheduler. 
 
+### Known Issues
+Display is flickering - I've tried to counteract the flickering by trying to reduce the amount of needed screen updates. This was done in the by implementing a function that only updates the display value only if the new recieved value is different. I've also implemented a function to keep the length of the displayed string the same in order to the need to delete and fill new spaces. Unfortunately, the display still seems to flicker a lot during updates and I don't really know of a method to fix it. 
+
+Zeroes in front of value - Related to above, this was a design choice by me so I can try to reduce flickering by not having to update new spaces on the display. This means that the value will never go above or below a certain set amount of digits. For example, if you set a max limit of 2 digits and the arduino recieves a value of 3, then it will display "03". Consequently, if the arduino recieves a value of 100 or above, it will display "99" instead. One can change the code to not constrain the digits if they wish but keep in mind that it may induce more display flickering. 
+
+
 
