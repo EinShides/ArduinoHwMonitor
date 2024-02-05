@@ -1,4 +1,7 @@
 # Arduino Hardware Monitor
+
+![Sample test of HW monitor working on my laptop](https://cdn.discordapp.com/attachments/951955651272257568/1203871678749483119/P_20240106_105138.jpg?ex=65d2abdf&is=65c036df&hm=088617d23ec4df12c3de7ec79b04df7319f6b5b93e5cf6f616041fc629bcdf89&)
+
 A pc hardware monitor based on the arduino mega 2560 and 3.5" tft display. 
 
 The purpose of this project is to get rid my rtss overlay. I use rtss to make sure my compnents aren't overheating and to check if my undervolts are working. Unfortunately, the rtss overlay covers a lot of space on my screen and sometimes blocks crucial game information. 
