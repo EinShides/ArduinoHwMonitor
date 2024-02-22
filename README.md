@@ -1,6 +1,6 @@
 # Arduino Hardware Monitor
 
-![Sample test of HW monitor working on my laptop](https://cdn.discordapp.com/attachments/951955651272257568/1203871678749483119/P_20240106_105138.jpg?ex=65d2abdf&is=65c036df&hm=088617d23ec4df12c3de7ec79b04df7319f6b5b93e5cf6f616041fc629bcdf89&)
+![Sample test of HW monitor working on my laptop](./P_20240106_105138.jpg)
 
 A pc hardware monitor based on the arduino mega 2560 and 3.5" tft display. 
 
